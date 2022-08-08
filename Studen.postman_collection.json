@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "17481c85-3acc-4946-b4b9-87f9312278d3",
+		"name": "Studen",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22276330"
+	},
+	"item": [
+		{
+			"name": "TOKEN/USuario/Studen4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bensg.com/test-qalab/login/token.php?username=st30004&password=Password2!&service=moodle_mobile_app",
+					"protocol": "https",
+					"host": [
+						"bensg",
+						"com"
+					],
+					"path": [
+						"test-qalab",
+						"login",
+						"token.php"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "st30004"
+						},
+						{
+							"key": "password",
+							"value": "Password2!"
+						},
+						{
+							"key": "service",
+							"value": "moodle_mobile_app"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "TOKEN/USuario",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://bensg.com/test-qalab/login/token.php?username=st30001&password=Password2!&service=moodle_mobile_app",
+							"protocol": "https",
+							"host": [
+								"bensg",
+								"com"
+							],
+							"path": [
+								"test-qalab",
+								"login",
+								"token.php"
+							],
+							"query": [
+								{
+									"key": "username",
+									"value": "st30001"
+								},
+								{
+									"key": "password",
+									"value": "Password2!"
+								},
+								{
+									"key": "service",
+									"value": "moodle_mobile_app"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Resultado/Usuario/Studen4/Data2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bensg.com/test-qalab/webservice/rest/server.php?wstoken=337f2960beedda6055a7637a6801900c&wsfunction=core_course_search_courses&moodlewsrestformat=json&criterianame=2",
+					"protocol": "https",
+					"host": [
+						"bensg",
+						"com"
+					],
+					"path": [
+						"test-qalab",
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "337f2960beedda6055a7637a6801900c"
+						},
+						{
+							"key": "wsfunction",
+							"value": "core_course_search_courses"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "criterianame",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

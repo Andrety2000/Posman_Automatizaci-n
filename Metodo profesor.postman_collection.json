@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "660c6b49-3302-469b-b119-bf3977572e54",
+		"name": "Metodo profesor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22276330"
+	},
+	"item": [
+		{
+			"name": "TOKEN/Profesr",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bensg.com/test-qalab/login/token.php?username=pf40001&password=Password1!&service=moodle_mobile_app",
+					"protocol": "https",
+					"host": [
+						"bensg",
+						"com"
+					],
+					"path": [
+						"test-qalab",
+						"login",
+						"token.php"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "pf40001"
+						},
+						{
+							"key": "password",
+							"value": "Password1!"
+						},
+						{
+							"key": "service",
+							"value": "moodle_mobile_app"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Resultado/Usuario/Prosesor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bensg.com/test-qalab/webservice/rest/server.php?wstoken=dfc994436d8fec124259194d79d45705&wsfunction=block_recentlyaccesseditems_get_recent_items&moodlewsrestformat=json&limit=2",
+					"protocol": "https",
+					"host": [
+						"bensg",
+						"com"
+					],
+					"path": [
+						"test-qalab",
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "dfc994436d8fec124259194d79d45705"
+						},
+						{
+							"key": "wsfunction",
+							"value": "block_recentlyaccesseditems_get_recent_items"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "limit",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

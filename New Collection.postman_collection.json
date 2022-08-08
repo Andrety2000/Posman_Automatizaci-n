@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "72717fab-63ee-4028-a613-72ea8748f132",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22276330"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bensg.com/test-qalab/webservice/rest/server.php?wstoken=337f2960beedda6055a7637a6801900c&wsfunction=core_badges_get_user_badges&moodlewsrestformat=json&userid=2",
+					"protocol": "https",
+					"host": [
+						"bensg",
+						"com"
+					],
+					"path": [
+						"test-qalab",
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "337f2960beedda6055a7637a6801900c"
+						},
+						{
+							"key": "wsfunction",
+							"value": "core_badges_get_user_badges"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "userid",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bensg.com/test-qalab/webservice/rest/server.php?wstoken=5ef3b7044bbbf9dfdb9faf19da1fb2c0&wsfunction=block_recentlyaccesseditems_get_recent_items&moodlewsrestformat=json&limit=4",
+					"protocol": "https",
+					"host": [
+						"bensg",
+						"com"
+					],
+					"path": [
+						"test-qalab",
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "5ef3b7044bbbf9dfdb9faf19da1fb2c0"
+						},
+						{
+							"key": "wsfunction",
+							"value": "block_recentlyaccesseditems_get_recent_items"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "limit",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

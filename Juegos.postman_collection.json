@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "93e87c8a-5df4-41a9-a77f-8aad3b1782ad",
+		"name": "Juegos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22276330"
+	},
+	"item": [
+		{
+			"name": "Juegos_vida",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.freetogame.com/api/games?platform=pc&category=shooter",
+					"protocol": "https",
+					"host": [
+						"www",
+						"freetogame",
+						"com"
+					],
+					"path": [
+						"api",
+						"games"
+					],
+					"query": [
+						{
+							"key": "platform",
+							"value": "pc"
+						},
+						{
+							"key": "category",
+							"value": "shooter"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

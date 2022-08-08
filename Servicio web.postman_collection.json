@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "ae51aa78-e312-45c6-afe9-e872342f7c5a",
+		"name": "Servicio web",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22276330"
+	},
+	"item": [
+		{
+			"name": "TOKEN/USuario",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bensg.com/test-qalab/login/token.php?username=st30001&password=Password2!&service=moodle_mobile_app",
+					"protocol": "https",
+					"host": [
+						"bensg",
+						"com"
+					],
+					"path": [
+						"test-qalab",
+						"login",
+						"token.php"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "st30001"
+						},
+						{
+							"key": "password",
+							"value": "Password2!"
+						},
+						{
+							"key": "service",
+							"value": "moodle_mobile_app"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "TOKEN/USuario",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://bensg.com/test-qalab/login/token.php?username=st30001&password=Password2!&service=moodle_mobile_app",
+							"protocol": "https",
+							"host": [
+								"bensg",
+								"com"
+							],
+							"path": [
+								"test-qalab",
+								"login",
+								"token.php"
+							],
+							"query": [
+								{
+									"key": "username",
+									"value": "st30001"
+								},
+								{
+									"key": "password",
+									"value": "Password2!"
+								},
+								{
+									"key": "service",
+									"value": "moodle_mobile_app"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "TOKEN/USuario1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bensg.com/test-qalab/login/token.php?username=st30004&password=Password2!&service=moodle_mobile_app",
+					"protocol": "https",
+					"host": [
+						"bensg",
+						"com"
+					],
+					"path": [
+						"test-qalab",
+						"login",
+						"token.php"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "st30004"
+						},
+						{
+							"key": "password",
+							"value": "Password2!"
+						},
+						{
+							"key": "service",
+							"value": "moodle_mobile_app"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Resultado/Usuario/TOKEN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bensg.com/test-qalab/webservice/rest/server.php?wstoken=5ef3b7044bbbf9dfdb9faf19da1fb2c0&wsfunction=block_recentlyaccesseditems_get_recent_items&moodlewsrestformat=json&limit=4",
+					"protocol": "https",
+					"host": [
+						"bensg",
+						"com"
+					],
+					"path": [
+						"test-qalab",
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "5ef3b7044bbbf9dfdb9faf19da1fb2c0"
+						},
+						{
+							"key": "wsfunction",
+							"value": "block_recentlyaccesseditems_get_recent_items"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "limit",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Resultado/Usuario/TOKEN1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bensg.com/test-qalab/webservice/rest/server.php?wstoken=337f2960beedda6055a7637a6801900c&wsfunction=core_badges_get_user_badges&moodlewsrestformat=json&userid=2",
+					"protocol": "https",
+					"host": [
+						"bensg",
+						"com"
+					],
+					"path": [
+						"test-qalab",
+						"webservice",
+						"rest",
+						"server.php"
+					],
+					"query": [
+						{
+							"key": "wstoken",
+							"value": "337f2960beedda6055a7637a6801900c"
+						},
+						{
+							"key": "wsfunction",
+							"value": "core_badges_get_user_badges"
+						},
+						{
+							"key": "moodlewsrestformat",
+							"value": "json"
+						},
+						{
+							"key": "userid",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
